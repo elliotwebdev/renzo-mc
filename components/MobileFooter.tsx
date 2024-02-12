@@ -31,7 +31,7 @@ export default function Footer() {
 					</div>
 					
 				</div>
-				<div className="flex flex-col justify-between "> 
+				<div className="flex flex-col justify-around "> 
 					<p className="footerText">Renzo Gracie Missouri City</p>
 					<p>1021 Lake Olympia Pkwy Ste 950, Missouri City, TX 77489</p>
 					<a href="tel:281-652-7961">(281) 652-7961</a>

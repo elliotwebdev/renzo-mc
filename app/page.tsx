@@ -88,7 +88,8 @@ export default function Page() {
 			<div className="flex flex-col justify-around text-center bg-black font-garet text-white pt-8 space-y-2">
 				<p className='text-base lg:text-xl px-2'>Subscribe for an exclusive </p>
 				<h2 className='uppercase text-xl lg:text-4xl tracking-tighter font-bold text-orange-500'>founder's rate </h2>
-				<p className='text-base lg:text-xl px-1'>or call us at (281) 652-7961 for more information!</p>
+				<p className='text-xl lg:text-4xl tracking-tighter font-bold text-orange-500'>& NO registration fee! </p>
+				<p className='text-base lg:text-xl px-1'>Or call us at (281) 652-7961 for more information!</p>
 				<h2 className='uppercase text-2xl lg:text-6xl tracking-tighter font-bold bg-orange-500'>Deal Ends April 1st, 2024</h2>
 			</div>
 			<div id="demo" className="flex justify-around text-center bg-black py-6 font-garet text-white">
