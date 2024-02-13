@@ -35,7 +35,7 @@ export default function Footer() {
 					<p className="footerText">Renzo Gracie Missouri City</p>
 					<p>1021 Lake Olympia Pkwy Ste 950, Missouri City, TX 77489</p>
 					<a href="tel:281-652-7961">(281) 652-7961</a>
-					<a href = "mailto:info@renzograciemissouricity.com">info@renzograciemissouricity.com</a>
+					{/* <a href = "mailto:info@renzograciemissouricity.com">info@renzograciemissouricity.com</a> */}
 				</div>
 				{/* <div className="flex flex-row text-xs justify-between">
 					<div className="flex flex-col justify-between "> 
