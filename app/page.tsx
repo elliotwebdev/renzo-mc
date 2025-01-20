@@ -26,7 +26,7 @@ import MessageForm from "./contact/MessageForm"
 export default function Page() {
 	useEffect(() => {
 		// Set the date we're counting down to
-		var countDownDate = new Date("Dec 14, 2024 23:59:00").getTime();
+		var countDownDate = new Date("Jan 26, 2025 23:59:00").getTime();
 
 		// Update the count down every 1 second
 		var x = setInterval(function() {
@@ -90,7 +90,7 @@ export default function Page() {
 				<h2 className='uppercase text-xl lg:text-4xl tracking-tighter font-bold text-orange-500'>founder's rate </h2>
 				<p className='text-xl lg:text-4xl tracking-tighter font-bold text-orange-500'>& NO registration fee! </p>
 				<p className='text-base lg:text-xl px-1'>Or call us at (281) 652-7961 for more information!</p>
-				<h2 className='uppercase text-2xl lg:text-6xl tracking-tighter font-bold bg-orange-500 py-2'>Deal Ends December 14th, 2024</h2>
+				<h2 className='uppercase text-2xl lg:text-6xl tracking-tighter font-bold bg-orange-500 py-2'>Deal Ends January 26th, 2024</h2>
 			</div>
 			<div id="demo" className="flex justify-around text-center bg-black py-6 font-garet text-white">
 				<div className="flex flex-col">
@@ -111,6 +111,10 @@ export default function Page() {
 				</div>
 				
 			</div>
+			<div className="flex flex-col justify-around text-center bg-black font-garet text-white space-y-2">
+				<h2 className='uppercase text-2xl lg:text-6xl tracking-tighter font-bold bg-orange-500 py-2'>More Information to Follow</h2>
+			</div>
+			
 			<div className="lg:px-60 flex flex-col justify-center w-full bg-white"> 
 				<MessageForm />
 			</div>
