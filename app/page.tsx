@@ -26,7 +26,7 @@ import MessageForm from "./contact/MessageForm"
 export default function Page() {
 	useEffect(() => {
 		// Set the date we're counting down to
-		var countDownDate = new Date("Feb 15, 2025 23:59:00").getTime();
+		var countDownDate = new Date("Feb 28, 2025 23:59:00").getTime();
 
 		// Update the count down every 1 second
 		var x = setInterval(function() {
@@ -88,9 +88,12 @@ export default function Page() {
 			<div className="flex flex-col justify-around text-center bg-black font-garet text-white pt-8 space-y-2">
 				<p className='text-base lg:text-xl px-2'>Subscribe for an exclusive </p>
 				<h2 className='uppercase text-xl lg:text-4xl tracking-tighter font-bold text-orange-500'>founder's rate </h2>
-				<p className='text-xl lg:text-4xl tracking-tighter font-bold text-orange-500'>& NO registration fee! </p>
+				
 				<p className='text-base lg:text-xl px-1'>Or call us at (281) 652-7961 for more information!</p>
-				<h2 className='uppercase text-2xl lg:text-6xl tracking-tighter font-bold bg-orange-500 py-2'>Deal Ends February 15th, 2025</h2>
+				<h2 className='uppercase text-2xl lg:text-6xl tracking-tighter font-bold bg-orange-500 py-2'>Deal Ends February 28th, 2025</h2>
+			</div>
+			<div className="flex flex-col justify-around text-center bg-black font-garet text-white space-y-2">
+				<h2 className='uppercase text-2xl lg:text-3xl tracking-tighter font-bold bg-orange-500 py-2'>More Information to Follow</h2>
 			</div>
 			<div id="demo" className="flex justify-around text-center bg-black py-6 font-garet text-white">
 				<div className="flex flex-col">
@@ -111,13 +114,27 @@ export default function Page() {
 				</div>
 				
 			</div>
-			<div className="flex flex-col justify-around text-center bg-black font-garet text-white space-y-2">
-				<h2 className='uppercase text-2xl lg:text-6xl tracking-tighter font-bold bg-orange-500 py-2'>More Information to Follow</h2>
-			</div>
 			
-			<div className="lg:px-60 flex flex-col justify-center w-full bg-white"> 
+			{/* <div className="lg:px-60 flex flex-col justify-center w-full bg-white"> 
 				<MessageForm />
+			</div> */}
+
+			<div className="bg-black text-white flex justify-center ">
+
+				<div id="schedule" className="flex flex-col rounded-sm text-center items-center h-fit w-full py-12 bg-black">
+					<button className="block cursor-pointer bg-header hover:scale-110 duration-150 rounded-xl" aria-label='Enroll Here!'>
+						<a
+						className="relative inline-block text-left text-white uppercase bg-main text-4xl font-medium p-2 rounded-md "
+						href="https://renzograciemissouricity.kicksite.net/bizbuilders/landing_pages/eyJhbGciOiJIUzI1NiJ9.eyJkYXRhIjoibGRwZ18yMDc2NSJ9.K_fHkOoBkMWHNwSCiL9CimfukxJofIj7rePv5D2ZYdk"
+						
+						>
+						Click Here to Enroll!
+						</a>
+					</button>
+				</div>
+
 			</div>
+
 			<div>
 			<Image
 				className=''
