@@ -128,7 +128,7 @@ export default function Page() {
 									{/* <li>We provide separate men and women changing rooms, each equipped with cubbies and showers 
 										(Soap is included in each stall, but please feel free to bring your own toiletries).</li> */}
 									<li>We strive in keeping a clean, safe, family-like environment. We are confident that you will enjoy your 
-										experience at the Renzo Gracie Houston.</li>
+										experience at the Renzo Gracie Missouri City.</li>
 									
 								</ul>
 							</Disclosure.Panel>
@@ -168,7 +168,7 @@ export default function Page() {
 						</Disclosure>
 
 						<div className="flex flex-row justify-center pt-4">
-							<a className="justify-center" href="https://renzograciehouston.sites.zenplanner.com/freeTrial.cfm">
+							<a className="justify-center" href="https://bjjlink.com/pub/664760798b06364ceffb751e">
 								<button className="bg-none text-xl lg:text-2xl 2xl:text-3xl text-button rounded-lg ring ring-button font-garet grow h-10 lg:h-fit w-80 lg:w-72 hover:scale-110 duration-150">Try a Free Class</button>
 							</a>
 						</div>
@@ -176,7 +176,7 @@ export default function Page() {
 					</div>
 				</div>
 				
-				<h2 className="text-center text-black text-3xl font-garet underline underline-offset-8 uppercase">Renzo Gracie Houston Academy Etiquette</h2>
+				<h2 className="text-center text-black text-3xl font-garet underline underline-offset-8 uppercase">Renzo Gracie Missouri City Academy Etiquette</h2>
 				
 				<div className="w-5/6 flex flex-col lg:flex-row lg:space-x-12 justify-center font-garet  pb-12">
 					{/* Etiquette */}

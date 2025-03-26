@@ -34,7 +34,7 @@ export default function Footer() {
 				<div className="flex flex-col justify-between "> 
 					<p className="footerText">Renzo Gracie Missouri City</p>
 					<p>1021 Lake Olympia Pkwy Ste 950, Missouri City, TX 77489</p>
-					<a href="tel:281-652-7961">(281) 652-7961</a>
+					<a href="tel:346-579-4676">(346) 579-4676</a>
 					{/* <a href = "mailto:info@renzograciemissouricity.com">info@renzograciemissouricity.com</a> */}
 				</div>
 				{/* <div className="flex flex-col justify-between "> 
@@ -88,7 +88,7 @@ export default function Footer() {
 			</div> 
 
 			<p className="place-content-center text-xs text-white pt-8">
-			2024 © Renzo Gracie Missouri City. All Rights Reserved.
+			2025 © Renzo Gracie Missouri City. All Rights Reserved.
 			</p>
 		</div>	
 	</>

@@ -52,7 +52,7 @@ export const academiesHouston = [
 	{
 		name: 'Missouri City',
 		address: '1021 Lake Olympia Pkwy Ste 950, Missouri City, TX 77489',
-		phone: '(281) 652-7961',
+		phone: '(346) 579-4676',
 		email: 'info@renzograciemissouricity.com',
 		href: 'https://www.renzograciemissouricity.com'
 	},

@@ -85,13 +85,7 @@ export default function NavMenu() {
 										<Link href="/programs/#kids-bjj" onClick={toggleMenu}>Kids BJJ</Link>
 									</li>
 									<li className="py-2">
-										<Link href="/programs/#wrestling" onClick={toggleMenu}>Wrestling</Link>
-									</li>
-									<li className="py-2">
-										<Link href="/programs/#muaythai" onClick={toggleMenu}>Muay Thai</Link>
-									</li>
-									<li className="py-2">
-										<a href="https://renzograciehouston.sites.zenplanner.com/freeTrial.cfm" onClick={toggleMenu}>Join a Free Class</a>
+										<a href="https://bjjlink.com/pub/664760798b06364ceffb751e" onClick={toggleMenu}>Join a Free Class</a>
 									</li>
 								</ul>
 							)}
@@ -103,15 +97,15 @@ export default function NavMenu() {
 							{informationSubMenuOpen && (
 								<ul className="py-1 px-12 relative">
 									<div className="absolute left-0 top-0 h-full bg-white w-px"></div>
-									<li className="py-2">
+									{/* <li className="py-2">
 										<Link href="/about" onClick={toggleMenu}>About Us</Link>
 									</li>
 									<li className="py-2">
 										<Link href="/about/#coaches" onClick={toggleMenu}>Coaches</Link>
 									</li>
 									<li className="py-2">
-										<Link href="/media" onClick={toggleMenu}>Media</Link>
-									</li>
+										<Link href="/media" className="disabled" onClick={toggleMenu}>Media</Link>
+									</li> */}
 									<li className="py-2">
 										<Link href="/testimonials" onClick={toggleMenu}>Testimonials</Link>
 									</li>
@@ -121,9 +115,9 @@ export default function NavMenu() {
 									<li className="py-2">
 										<Link href="/schedule" onClick={toggleMenu}>Class Schedule</Link>
 									</li>
-									<li className="py-2">
+									{/* <li className="py-2">
 										<Link href="/contact" onClick={toggleMenu}>Contact Us</Link>
-									</li>
+									</li> */}
 								</ul>
 							)}
 						</li>
@@ -139,7 +133,7 @@ export default function NavMenu() {
 
 						<div className="w-5/6 h-px bg-white"></div>
 
-						<a onClick={toggleMenu} href="https://renzograciehouston.sites.zenplanner.com/retail.cfm">
+						<a onClick={toggleMenu} href="https://shop.renzograciehouston.com">
 							<li className="py-3 footerText">
 							Shop
 							</li>
@@ -147,7 +141,7 @@ export default function NavMenu() {
 
 						<div className="w-5/6 h-px bg-white"></div>
 						
-						<a onClick={toggleMenu} href="https://renzograciehouston.sites.zenplanner.com/freeTrial.cfm">
+						<a onClick={toggleMenu} href="https://bjjlink.com/pub/664760798b06364ceffb751e">
 							<li className="py-3 footerText">
 							Free Trial Class
 							</li>

@@ -8,8 +8,6 @@ import MTImage from './images/muaythai.jpg';
 import WrestlingImage from './images/wrestling.jpg';
 import adultBJJ from './adultBJJ';
 import kidsBJJ from './kidsBJJ';
-import wrestling from './wrestling';
-import muaythai from './muaythai';
 import Link from 'next/link';
 
 export default function DesktopView() {
@@ -57,22 +55,6 @@ export default function DesktopView() {
               onClick={() => handleListItemClick(kidsBJJ)}
             >
               Kids Jiu Jitsu
-            </li>
-            <li
-              className="hover:bg-white hover:text-black duration-150 cursor-pointer pr-2"
-              onMouseEnter={() => handleHover(WrestlingImage)}
-              onMouseLeave={() => handleHover(null)}
-              onClick={() => handleListItemClick(wrestling)}
-            >
-              Wrestling
-            </li>
-            <li
-              className="hover:bg-white hover:text-black duration-150 cursor-pointer pr-2"
-              onMouseEnter={() => handleHover(MTImage)}
-              onMouseLeave={() => handleHover(null)}
-              onClick={() => handleListItemClick(muaythai)}
-            >
-              Muay Thai
             </li>
           </ul>
         </div>

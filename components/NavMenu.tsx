@@ -65,33 +65,7 @@ export default function NavMenu() {
 						</Menu.Item>
 						<Menu.Item>
 						{({ active }) => (
-							<Link href="/programs">
-								<button
-								className={`${
-								active ? 'bg-white text-header ' : 'text-white'
-								} group flex rounded-md items-center w-full px-2 py-2 `}
-								>
-								Wrestling
-								</button>
-							</Link>
-						)}
-						</Menu.Item>
-						<Menu.Item>
-						{({ active }) => (
-							<Link href="/programs">
-								<button
-								className={`${
-								active ? 'bg-white text-header ' : 'text-white'
-								} group flex rounded-md items-center w-full px-2 py-2 `}
-								>
-								Muay Thai
-								</button>
-							</Link>
-						)}
-						</Menu.Item>
-						<Menu.Item>
-						{({ active }) => (
-							<a href="https://renzograciehouston.sites.zenplanner.com/freeTrial.cfm">
+							<a href="https://bjjlink.com/pub/664760798b06364ceffb751e">
 								<button
 								className={`${
 								active ? 'bg-white text-header ' : 'text-white'
@@ -134,7 +108,7 @@ export default function NavMenu() {
 				className="absolute left-0 w-max mt-2 origin-top-left bg-header divide-x rounded-lg shadow-lg focus:outline-none"
 				>
 				<div className="px-1 py-1 border border-white rounded-lg">
-					<Menu.Item>
+					{/* <Menu.Item>
 					{({ active }) => (
 						<Link href="/about">
 							<button
@@ -172,7 +146,7 @@ export default function NavMenu() {
 							</button>
 						</Link>
 					)}
-					</Menu.Item>
+					</Menu.Item> */}
 					<Menu.Item>
 					{({ active }) => (
 						<Link href="/testimonials">
@@ -212,7 +186,7 @@ export default function NavMenu() {
 						</Link>
 					)}
 					</Menu.Item>
-					<Menu.Item>
+					{/* <Menu.Item>
 					{({ active }) => (
 						<Link href="/contact">
 							<button
@@ -224,7 +198,7 @@ export default function NavMenu() {
 							</button>
 						</Link>
 					)}
-					</Menu.Item>
+					</Menu.Item> */}
 					
 				</div>
 				</Menu.Items>
@@ -240,7 +214,7 @@ export default function NavMenu() {
 			</Link>
 
 			{/* Shop */}
-			<a className="relative inline-block text-left" href="https://renzograciehouston.sites.zenplanner.com/retail.cfm">
+			<a className="relative inline-block text-left" href="https://shop.renzograciehouston.com">
 				<button className="inline-flex justify-center w-full p-3   hover:bg-white hover:text-header hover:font-black rounded-md  focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">Shop</button>
 			</a>
 			

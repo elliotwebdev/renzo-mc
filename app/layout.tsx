@@ -35,12 +35,12 @@ export default function RootLayout({
 	return (
 		<html lang="en" className={` ${Garet.variable} ${GaretHeavy.variable} ${ArialBlack.variable} `}>
 			<body>
-				{/* <header className="lg:hidden sticky top-0 z-20">
+				<header className="lg:hidden sticky top-0 z-20">
 					<MobileMenu />
 				</header>
 				<header className="hidden lg:block sticky top-0 z-20">
 					<Header />
-				</header> */}
+				</header>
 				{children}
 				<footer className="lg:hidden">
 					<MobileFooter />
