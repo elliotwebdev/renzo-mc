@@ -81,7 +81,7 @@ export default function DesktopView() {
 			{isClicked && <div className="flex flex-col absolute top-0 left-0 w-full h-full items-center justify-center text-white text-2xl bg-black bg-opacity-50 space-y-4">
 				{info}
 				<div className="flex space-x-12  text-lg xl:text-2xl 2xl:text-3xl">
-					<a href="https://renzograciesat.sites.zenplanner.com/freeTrial.cfm">
+					<a href="https://bjjlink.com/pub/664760798b06364ceffb751e">
 						<button className="bg-button text-white rounded-lg font-garet ring ring-button grow w-full p-2 hover:scale-110 duration-150">Join a Class</button>
 					</a>
 					<Link href="/media">

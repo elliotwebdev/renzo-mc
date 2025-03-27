@@ -35,7 +35,7 @@ export default function Page() {
 									</p>
 									<br></br>
 									<p className='leading-6 xl:leading-8'>
-									At Renzo Gracie Houston, we believe in the power of Jiu Jitsu to transform lives. We are passionate about martial arts and dedicated to providing a fun, sustainable training environment for our students. Our coaches are not just instructors, but lifelong students of Jiu Jitsu, constantly learning and evolving to provide the best training possible.
+									At Renzo Gracie Missouri City, we believe in the power of Jiu Jitsu to transform lives. We are passionate about martial arts and dedicated to providing a fun, sustainable training environment for our students. Our coaches are not just instructors, but lifelong students of Jiu Jitsu, constantly learning and evolving to provide the best training possible.
 									</p>
 								</div>
 							</div>

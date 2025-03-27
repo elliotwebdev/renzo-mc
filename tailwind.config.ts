@@ -20,10 +20,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        'header': '#0B1F75',
+        'header': '#000',
         'button': '#0613D6',
         'section': '#004AAD',
-        'footer': '#a4a3a3',
+        'footer': '#000',
       },
       fontFamily: {
         garet: ['var(--font-garet)'],

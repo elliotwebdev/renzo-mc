@@ -176,10 +176,10 @@ export default function Page() {
 				}}
 				/>	
 				{/* Desktop Hero */}
-				<div className="pl-2 lg:pl-12 max-w-xl lg:py-8 2xl:py-12 absolute top-0 lg:space-y-2 xl:space-y-8 2xl:space-y-24 text-white bg-gradient-to-r from-black/90">
-					<h1 className="font-arialBlack text-3xl lg:text-5xl xl:text-7xl 2xl:text-9xl tracking-tight leading-hero max-w-0 lg:max-w-xs ">Renzo Gracie Missouri City</h1>
-					<div className="hidden lg:block max-w-xs 2xl:max-w-lg text-base lg:text-lg 2xl:text-4xl space-y-2 2xl:space-y-8">
-						<p className="font-garet">Brazilian Jiu-Jitsu and community in Missouri City.</p> 
+				<div className="pl-2 lg:pl-12 max-w-xl lg:py-8 2xl:py-12 absolute top-0 lg:space-y-2 xl:space-y-8 2xl:space-y-24 text-white bg-gradient-to-r from-black/100 lg:h-full">
+					<h1 className="font-arialBlack text-4xl lg:text-5xl xl:text-7xl 2xl:text-9xl tracking-tight leading-hero max-w-xs lg:max-w-xl ">Renzo Gracie Missouri City</h1>
+					<div className="hidden lg:block max-w-sm 2xl:max-w-lg text-base lg:text-lg 2xl:text-4xl space-y-2 2xl:space-y-8">
+						<p className="font-garet">Brazilian Jiu-Jitsu, community, and more in Missouri City.</p> 
 						<p className="font-garet lg:text-base 2xl:text-2xl">“We are not in the business of martial arts. We are in the business of building confidence. Confidence not only to defend yourself—we help build the confidence required to face life.”</p> 
 						<p className="italic font-garet lg:text-base 2xl:text-2xl">- Master Renzo Gracie</p>
 						
@@ -195,7 +195,7 @@ export default function Page() {
 				</div>
 				{/* Mobile Hero */}
 				<div className="block lg:hidden h-auto py-4 px-6 bg-white text-black">
-					<p className="font-garet text-xl">Brazilian Jiu-Jitsu and community in Houston.</p> 
+					<p className="font-garet text-xl">Brazilian Jiu-Jitsu, community, and more in Missouri City.</p> 
 					<p className="font-garet text-base pt-2">We are not in the business of martial arts. We are in the business of building confidence. Confidence not only to defend yourself—we help build the confidence required to face life.</p> 
 					<p className="italic font-garet text-base">- Master Renzo Gracie</p>
 					<div className="flex flex-col items-center w-full pt-6 space-y-6">
@@ -306,7 +306,7 @@ export default function Page() {
 							<h2 className='font-garet uppercase text-2xl 2xl:text-3xl  ml-2'>Class Schedule</h2>
 						</div>
 					</Link>
-					<a className="col-span-1" href="https://renzograciehouston.sites.zenplanner.com/freeTrial.cfm">	
+					<a className="col-span-1" href="https://bjjlink.com/pub/664760798b06364ceffb751e">	
 						<div className="card ease-in-out duration-500 h-64 lg:h-72 2xl:h-96 bg-white hover:bg-header text-black hover:text-white outline outline-1 outline-black rounded-md flex flex-col justify-between">
 							<Image
 								className='h-5/6 rounded-md object-cover'

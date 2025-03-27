@@ -35,7 +35,7 @@ export default function Page() {
 				<AdultBJJ />
 
 				<div className="flex flex-col items-center w-full py-6 space-y-6">
-					<a href="https://renzograciehouston.sites.zenplanner.com/freeTrial.cfm">
+					<a href="https://bjjlink.com/pub/664760798b06364ceffb751e">
 						<button className="bg-button text-lg inline-block text-white rounded-lg font-garet ring ring-button grow h-10 w-80 hover:scale-110 duration-150">Join a Class</button>
 					</a>
 					<Link id="kids-bjj" href="/media">
@@ -56,7 +56,7 @@ export default function Page() {
 				<KidsBJJ />
 
 				<div className="flex flex-col items-center w-full py-6 space-y-6">
-					<a href="https://renzograciehouston.sites.zenplanner.com/freeTrial.cfm">
+					<a href="https://bjjlink.com/pub/664760798b06364ceffb751e">
 						<button className="bg-button text-lg inline-block text-white rounded-lg font-garet ring ring-button grow h-10 w-80 hover:scale-110 duration-150">Join a Class</button>
 					</a>
 					<Link id="wrestling" href="/media">
