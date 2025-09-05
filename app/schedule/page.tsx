@@ -34,11 +34,11 @@ export default function Page() {
 						</div>
 				
 						<p className='font-garet heroText pt-4 mx-4 text-center'>
-							For our students who train at multiple locations, we offer access to a third-party website that displays class schedules for all Houston academy locations. Developed by one of our very own student!
+							For our students who train at multiple locations, we offer access to an independent site that displays class schedules for Houston academy locations!
 						</p>
 						<div className="flex justify-center">
-							<a href="https://renzo.events">
-								<button className="bg-button text-xl lg:text-2xl 2xl:text-3xl text-white rounded-lg ring ring-button font-garet grow w-80 2xl:w-72 py-1 hover:scale-110 duration-150">Renzo Events</button>
+							<a href="https://renzorolls.com">
+								<button className="bg-button text-xl lg:text-2xl 2xl:text-3xl text-white rounded-lg ring ring-button font-garet grow w-80 2xl:w-72 py-1 hover:scale-110 duration-150">Renzo Rolls</button>
 							</a>
 						</div>
 				</div>
