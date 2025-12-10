@@ -168,7 +168,7 @@ export default function Page() {
 						</Disclosure>
 
 						<div className="flex flex-row justify-center pt-4">
-							<a className="justify-center" href="https://bjjlink.com/pub/664760798b06364ceffb751e">
+							<a className="justify-center" href="https://api.bjjlink.com/pub/664760798b06364ceffb751e">
 								<button className="bg-none text-xl lg:text-2xl 2xl:text-3xl text-button rounded-lg ring ring-button font-garet grow h-10 lg:h-fit w-80 lg:w-72 hover:scale-110 duration-150">Try a Free Class</button>
 							</a>
 						</div>

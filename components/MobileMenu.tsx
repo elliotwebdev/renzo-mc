@@ -85,7 +85,7 @@ export default function NavMenu() {
 										<Link href="/programs/#kids-bjj" onClick={toggleMenu}>Kids BJJ</Link>
 									</li>
 									<li className="py-2">
-										<a href="https://bjjlink.com/pub/664760798b06364ceffb751e" onClick={toggleMenu}>Join a Free Class</a>
+										<a href="https://api.bjjlink.com/pub/664760798b06364ceffb751e" onClick={toggleMenu}>Join a Free Class</a>
 									</li>
 								</ul>
 							)}
@@ -141,7 +141,7 @@ export default function NavMenu() {
 
 						<div className="w-5/6 h-px bg-white"></div>
 						
-						<a onClick={toggleMenu} href="https://bjjlink.com/pub/664760798b06364ceffb751e">
+						<a onClick={toggleMenu} href="https://api.bjjlink.com/pub/664760798b06364ceffb751e">
 							<li className="py-3 footerText">
 							Free Trial Class
 							</li>

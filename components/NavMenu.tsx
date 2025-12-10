@@ -65,7 +65,7 @@ export default function NavMenu() {
 						</Menu.Item>
 						<Menu.Item>
 						{({ active }) => (
-							<a href="https://bjjlink.com/pub/664760798b06364ceffb751e">
+							<a href="https://api.bjjlink.com/pub/664760798b06364ceffb751e">
 								<button
 								className={`${
 								active ? 'bg-white text-header ' : 'text-white'

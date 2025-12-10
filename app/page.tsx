@@ -185,7 +185,7 @@ export default function Page() {
 						
 					</div>
 					<div className="hidden lg:flex lg:flex-col space-y-6 text-lg xl:text-2xl 2xl:text-3xl">
-						<a href="https://bjjlink.com/pub/664760798b06364ceffb751e">
+						<a href="https://api.bjjlink.com/pub/664760798b06364ceffb751e">
 							<button className="bg-button text-white rounded-lg font-garet ring ring-button grow w-full py-1 hover:scale-110 duration-150">Join a Class</button>
 						</a>
 						<Link href="/programs">
@@ -199,7 +199,7 @@ export default function Page() {
 					<p className="font-garet text-base pt-2">We are not in the business of martial arts. We are in the business of building confidence. Confidence not only to defend yourself—we help build the confidence required to face life.</p> 
 					<p className="italic font-garet text-base">- Master Renzo Gracie</p>
 					<div className="flex flex-col items-center w-full pt-6 space-y-6">
-						<a href="https://bjjlink.com/pub/664760798b06364ceffb751e">
+						<a href="https://api.bjjlink.com/pub/664760798b06364ceffb751e">
 							<button className="bg-button text-lg inline-block text-white rounded-lg font-garet ring ring-button grow h-10 w-80 hover:scale-110 duration-150">Join a Class</button>
 						</a>
 						<Link href="/programs">
@@ -306,7 +306,7 @@ export default function Page() {
 							<h2 className='font-garet uppercase text-2xl 2xl:text-3xl  ml-2'>Class Schedule</h2>
 						</div>
 					</Link>
-					<a className="col-span-1" href="https://bjjlink.com/pub/664760798b06364ceffb751e">	
+					<a className="col-span-1" href="https://api.bjjlink.com/pub/664760798b06364ceffb751e">	
 						<div className="card ease-in-out duration-500 h-64 lg:h-72 2xl:h-96 bg-white hover:bg-header text-black hover:text-white outline outline-1 outline-black rounded-md flex flex-col justify-between">
 							<Image
 								className='h-5/6 rounded-md object-cover'

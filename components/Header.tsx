@@ -31,7 +31,7 @@ export default function Header() {
 						</div>
 					</a>
 				</div>
-				<a href="https://bjjlink.com/pub/664760798b06364ceffb751e">
+				<a href="https://api.bjjlink.com/pub/664760798b06364ceffb751e">
 					<button id="headerCTA" className="bg-white uppercase text-xs lg:text-sm xl:text-lg w-max  text-button p-1 ring ring-button rounded-lg font-garet tracking-tighter hover:scale-110 duration-150">Free Trial Class</button>
 				</a>
 			</div>

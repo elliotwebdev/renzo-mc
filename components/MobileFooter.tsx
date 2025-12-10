@@ -35,10 +35,10 @@ export default function Footer() {
 					<p className="footerText">Renzo Gracie Missouri City</p>
 					<p>1021 Lake Olympia Pkwy Ste 950, Missouri City, TX 77489</p>
 					<a href="tel:346-579-4676">(346) 579-4676</a>
-					{/* <a href = "mailto:info@renzograciemissouricity.com">info@renzograciemissouricity.com</a> */}
+					<a href = "mailto:info@renzograciemissouricity.com">info@renzograciemissouricity.com</a>
 				</div>
-				{/* <div className="flex flex-row text-xs justify-between">
-					<div className="flex flex-col justify-between "> 
+				<div className="flex flex-row text-xs justify-between">
+					<div className="flex flex-col justify-between space-y-6"> 
 						<Link href="/programs">
 							<p>Programs</p>
 						</Link>
@@ -48,34 +48,17 @@ export default function Footer() {
 						<Link href="/programs/#kids-bjj">
 							<p>Kids BJJ</p>
 						</Link>
-						<Link href="/programs/#wrestling">
-							<p>Wrestling</p>
-						</Link>
-						<Link href="/programs/#muaythai">
-							<p>Muay Thai</p>
-						</Link>
-						<a href="https://renzograciehouston.sites.zenplanner.com/freeTrial.cfm">
+						<a href="https://api.bjjlink.com/pub/664760798b06364ceffb751e">
 							<p>Join a Free Class</p>
 						</a>
-						<Link href="/schedule">
-							<p>Class Schedule</p>
-						</Link>
+
 					</div>
 					<div className="flex flex-col justify-between "> 
-						<Link href="/about">
-							<p>About Us</p>
-						</Link>
-						<Link href="/about#coaches">
-							<p>Coaches</p>
+						<Link href="/schedule">
+						<p>Class Schedule</p>
 						</Link>
 						<Link href="/faq">
 							<p>FAQ</p>
-						</Link>
-						<Link href="/contact">
-							<p>Contact Us</p>
-						</Link>
-						<Link href="/media">
-							<p>Media</p>
 						</Link>
 						<Link href="/testimonials">
 							<p>Testimonials</p>
@@ -84,7 +67,7 @@ export default function Footer() {
 							<p>Texas Affiliate Academies</p>
 						</Link>
 					</div>
-				</div> */}
+				</div>
 			</div> 
 
 			<p className="text-center text-sm text-white pt-8">
